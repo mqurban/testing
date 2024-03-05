@@ -1,4 +1,4 @@
-generateTable();
+// generateTable();
 function generateTable() {
     let number = document.getElementById('table').value;
     let limit = document.getElementById('limit').value;
