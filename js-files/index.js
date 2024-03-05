@@ -17,4 +17,4 @@ function generateTable() {
     document.querySelector('.printTable').innerHTML = tableHTML;
   }
   
-  // generateTable();
+  generateTable();
