@@ -1,4 +1,3 @@
-// generateTable();
 function generateTable() {
     let number = document.getElementById('table').value;
     let limit = document.getElementById('limit').value;
@@ -18,3 +17,6 @@ function generateTable() {
     document.querySelector('.printTable').innerHTML = tableHTML;
   }
   
+
+let btn = document.getElementById('button1');
+btn.onclick = generateTable;
